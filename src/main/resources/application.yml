@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    generate-unique-name: false
+    name: testdb
+  h2:
+    console:
+      enabled: true
+  # http://localhost:28080/h2-console/
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+#      ddl-auto: none
+server:
+  port: 28080
